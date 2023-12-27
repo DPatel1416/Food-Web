@@ -55,6 +55,8 @@ Install tailwindcss and its peer dependencies, then generate your tailwind.confi
 
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+
+
 Configure your template paths
 Add the paths to all of your template files in your tailwind.config.js file.
 
@@ -87,16 +89,6 @@ Run your build process with npm run dev.
 npm run dev
 Start using Tailwind in your project
 Start using Tailwind’s utility classes to style your content.
-
- - App.jsx
-
-export default function App() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
 
 bash
 Copy code - npm start
